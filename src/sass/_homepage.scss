@@ -1,0 +1,111 @@
+
+
+.navbar-expand-lg {
+  
+  .navbar-nav {
+    gap: 24px;
+    .btn {
+      margin-bottom: 0px;
+    }
+  }
+}
+
+.index-page {
+  
+  .hh-bg {
+    background-color: #F8FAFE;
+  }
+  .navbar {
+    background-color: transparent;
+    box-shadow: none;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .navbar-scrolled {
+    background: linear-gradient(230deg, #025344 2.03%, #00836B 103.43%);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-radius: 60px;
+    padding-top: 0.2rem !important;
+    padding-bottom: 0.2rem !important;
+    
+  }
+  .hh-logos {
+    
+    .in-logos {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      align-self: stretch;
+      margin-bottom: 32px;
+      gap: 32px;
+    }
+  }
+  
+}
+
+.homepage-cards {
+  .card {
+    display: flex;
+    width: 600px;
+    height: 391px;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+
+    border-radius: 20px;
+    border: 5px solid var(--White, #FFF);
+    background: var(--White, #FFF);
+    
+    /* Shadow/Dark/XXL */
+    box-shadow: 0px 25px 50px -12px rgba(0, 0, 0, 0.25), 0px 0px 15px 0px rgba(0, 0, 0, 0.07);
+
+    .head-card {
+      display: flex;
+      height: 41px;
+      padding-top: 8px;
+      padding-right: 16px;
+      padding-left: 16px;
+      align-items: start;
+      gap: 28px;
+      flex-shrink: 0;
+      align-self: stretch;
+      .circles {
+        display: flex;
+        align-items: flex-start;
+        gap: 5px;
+        flex: 1 0 0;
+        .dot  {
+          width: 10px;
+          height: 10px;
+        }
+      }
+    }
+    .bg-video-f {
+      width: 706.177px;
+      height: 616px;
+      position: absolute;
+      right: -292.703px;
+      bottom: -129px;
+      fill: linear-gradient(253deg, #CFB381 0%, #ECE1CD 98.29%);
+      z-index: -9999;
+    }
+    .bg-video-r {
+      width: 706.177px;
+      height: 616px;
+      position: absolute;
+      left: -283.474px;
+      bottom: -129px;
+      fill: var(--Primary-linear, linear-gradient(230deg, #025344 2.03%, #00836B 103.43%));
+      z-index: -9999;
+    }
+    .video {
+      width: 100%;
+    }
+  }
+}
+
+.hh-bg-gradient-dark {
+  background-image: linear-gradient(310deg, #025344 0%, #00836B 100%);
+}
+
+
