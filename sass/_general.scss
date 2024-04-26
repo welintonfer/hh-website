@@ -15,6 +15,7 @@
   }
 }
 
+
 .navbar-expand-lg {
   
   .navbar-nav {
@@ -38,3 +39,28 @@
   border-left-width: 1px;
 }
 
+
+
+@media (max-width: 991px) {
+  .index-page, .contact-us-page {
+    .navbar {
+      background-image: linear-gradient(310deg, #025344 0%, #00836B 100%);
+      box-shadow: none;
+      transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    }
+  }
+}
+
+
+
+@include media-breakpoint-down(lg) { 
+
+  .index-page, .contact-us-page {
+    .navbar {
+      background-image: linear-gradient(310deg, #025344 0%, #00836B 100%);
+      background-color: #00836B;
+      box-shadow: none;
+      transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    }
+  }
+ }

@@ -121,4 +121,13 @@
 }
 
 
+@include media-breakpoint-down(lg) { 
 
+.personas {
+  .persona-img {
+    margin-top: 100px;
+
+  }
+}
+}
+  
