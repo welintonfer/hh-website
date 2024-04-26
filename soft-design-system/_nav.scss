@@ -18,6 +18,7 @@
       background-color: inherit;
       &.active {
         animation: $nav-pills-link-active-animation;
+        
       }
       &:hover:not(.active) {
         color: $dark;
