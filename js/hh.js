@@ -39,3 +39,23 @@ async function initMap() {
 }
 
 initMap();
+
+document.addEventListener('DOMContentLoaded', function() {
+  // Seleciona o botão pelo seu atributo class
+  var toggler = document.querySelector('.navbar-toggler');
+
+  // Adiciona um ouvinte de evento de clique ao botão
+  toggler.addEventListener('click', function() {
+    // Seleciona o elemento navbar pelo seu atributo class
+    var navbar = document.getElementById('navbar');
+
+    // Verifica se a classe 'nova-classe' já existe
+    if (navbar.classList.contains('put-bg-nav')) {
+      // Remove a classe, se já existir
+      navbar.classList.remove('put-bg-nav');
+    } else {
+      // Adiciona a classe 'nova-classe' se não existir
+      navbar.classList.add('put-bg-nav');
+    }
+  });
+});

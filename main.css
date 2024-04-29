@@ -6,6 +6,15 @@
   margin-bottom: 0px;
 }
 
+.index-page .put-bg-nav {
+  background: linear-gradient(230deg, #025344 2.03%, #00836B 103.43%);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 60px;
+    padding-top: 0.2rem !important;
+    padding-bottom: 0.2rem !important;
+}
+
+
 .index-page .hh-bg {
   background-color: #F8FAFE;
 }
