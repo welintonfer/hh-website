@@ -44,6 +44,7 @@
 
 
 <link rel="stylesheet" href="./main.css">
+<link rel="stylesheet" href="./style.css">
 <!-- <link rel="stylesheet" href="/./soft-design-system.css"> -->
 
 
@@ -524,13 +525,10 @@
 <!-- START Section Content W/ 2 images aside of icon title description -->
 <section class="py-8 homepage-cards overflow-hidden">
   <div class="container">
-    <div class="row mb-10">
-      <div class="col-lg-5 col-md-12 me-auto pt-6">
-        <div class="p-3 pt-0">
-            <!-- <div class="icon icon-shape bg-gradient-warning rounded-circle shadow text-center mb-4">
-              <i class="fas fa-trophy"></i>
-            </div>
-            <h4 class="text-gradient text-warning mb-0">Luxury Sensation</h4> -->
+    <div class="row mb-sm-2 mb-10">
+      <div class="col-lg-5 col-md-12 me-auto pt-6 d-flex align-items-center">
+        <div class="p-3 pt-0 align-middle">
+            
             <h3 class="mb-4">Virtual Ergonomic Risk Assessments</h3>
             <p>Carried out in just 3 minutes</p>
 
@@ -541,14 +539,49 @@
               
             </ul>
             
-            <button type="button" class="btn bg-gradient-primary btn-lg">Learn more</button>
+            <a type="button" href="#" class="btn bg-gradient-primary btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal">Learn more</a>
+            
+
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <video src="./videos/video-01.mp4" width="100%" class="video" autoplay="" loop=""></video>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div>
 
           </div>
       </div>
       <div class="col-lg-6 col-md-8">
-        <div class="position-relative ms-md-5 d-none d-md-block d-lg-block d-xl-block h-75">
+        <div class="position-relative ms-md-5 d-md-block d-lg-block d-xl-block h-75">
+
+          <div class="card-secondary">
+            <div class="gif">
+              <img src="./img/gif/mobile-01.gif" alt="Virtual Ergonomic Risk Assessments">
+            </div>
+            <svg class="bg-video-f" xmlns="http://www.w3.org/2000/svg" width="707" height="616" viewBox="0 0 707 616" fill="none">
+              <path d="M336.585 582.952C454.42 650.984 605.096 610.611 673.129 492.775C741.161 374.94 700.787 224.264 582.952 156.232L369.592 33.0481C251.756 -34.9843 101.08 5.38914 33.0481 123.225C-34.9843 241.06 5.38921 391.736 123.225 459.768L336.585 582.952Z" fill="url(#paint0_linear_6094_13796)"/>
+              <defs>
+                <linearGradient id="paint0_linear_6094_13796" x1="0" y1="0" x2="807.264" y2="285.854" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#CFB381"/>
+                  <stop offset="1" stop-color="#ECE1CD"/>
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+
           
-          <div class="card">
+          <!-- <div class="card">
             <div class="head-card">
               <div class="circles">
                 <div class="dot">
@@ -581,7 +614,7 @@
                 </defs>
               </svg>
             <video src="./videos/video-01.mp4" class="video" autoplay="" loop=""></video>
-          </div>
+          </div> -->
 
         </div>
       </div>
@@ -641,8 +674,10 @@
             </ul>
             
             <a type="button" href="./book-a-demo.html" class="btn bg-gradient-primary btn-lg">Book a demo</a>
+
             
           </div>
+          
       </div>
     </div>
 
@@ -707,7 +742,22 @@
     <div class="row  mb-2  mt-0 mt-md-5 mt-lg-8">
       <div class="col-lg-6 col-md-8 order-2 order-md-2 order-lg-1 ">
         <div class="position-relative ms-md-5 mb-0 mb-md-7 mb-lg-0 d-none d-md-block d-lg-block d-xl-block h-75">
-          <div class="card">
+
+          <div class="card-secondary">
+            <img src="./img/habitus-illustrations/img-04.svg" alt="A Healthier and more productive workforce">
+            <svg class="bg-video-r" xmlns="http://www.w3.org/2000/svg" width="707" height="616" viewBox="0 0 707 616" fill="none">
+              <path d="M336.585 582.952C454.42 650.984 605.096 610.611 673.129 492.775C741.161 374.94 700.787 224.264 582.952 156.232L369.592 33.0481C251.756 -34.9843 101.08 5.38914 33.0481 123.225C-34.9843 241.06 5.38921 391.736 123.225 459.768L336.585 582.952Z" fill="url(#paint0_linear_931_11730)"/>
+              <defs>
+                <linearGradient id="paint0_linear_931_11730" x1="26.3172" y1="-3.41697e-05" x2="712.931" y2="655.456" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#025344"/>
+                  <stop offset="1" stop-color="#00836B"/>
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+
+          <!-- <video src="./img/habitus-illustrations/img-04.svg" class="video" autoplay="" loop=""></video> -->
+          <!-- <div class="card">
             <div class="head-card">
               <div class="circles">
                 <div class="dot">
@@ -740,12 +790,12 @@
                 </linearGradient>
               </defs>
             </svg>
-            <video src="./videos/video-04.mp4" class="video" autoplay="" loop=""></video>
-          </div>
+            
+          </div> -->
         </div>
       </div>
-      <div class="col-lg-5 col-md-12 ms-auto order-1 order-md-1 order-lg-1 pt-6">
-        <div class="p-3 pt-0">
+      <div class="col-lg-5 col-md-12 ms-auto order-1 order-md-1 order-lg-1 pt-6 d-flex align-items-center">
+        <div class="p-3 pt-0 align-middle">
             
              <h3 class="mb-4">Health Centre</h3>
             <p>A Healthier and more productive workforce</p>
