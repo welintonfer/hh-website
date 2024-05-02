@@ -59,3 +59,19 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
 });
+
+// Video modal
+document.addEventListener('DOMContentLoaded', function () {
+  var myModal = document.getElementById('dashboardModal');
+  var videoIframe = document.getElementById('videoIframe');
+  var videoSrc = videoIframe.src; // Original src
+
+  myModal.addEventListener('shown.bs.modal', function () {
+      videoIframe.src = videoSrc + '?autoplay=1'; // Add autoplay when modal is shown
+  });
+
+  myModal.addEventListener('hide.bs.modal', function () {
+      videoIframe.src = ""; // Stop the video
+      videoIframe.src = videoSrc; // Reset the src
+  });
+});
